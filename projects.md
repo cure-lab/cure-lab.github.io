@@ -1,6 +1,6 @@
 ---
-title: blog
-permalink: /blog/
+title: projetcs
+permalink: /projects/
 ---
 
 ### **Blog posts from the lab**

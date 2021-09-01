@@ -3,9 +3,9 @@
 # # # # # # # #
 
 # Basic
-name:               "Kording lab"
-title:              "Kording lab at University of Pennsylvania"
-description:        "this is a page for Konrad Kording lab, we are comptational neurosciece and datascience lab at the University of Pennsylvania, Philadelphia"
+name:               "Cure Lab"
+title:              "Cure lab at the Chinese University of Hong Kong"
+description:        "this is a page for cure lab"
 
 
 # URL
@@ -24,16 +24,14 @@ highlighter:        rouge
 nav:
   - name:           "home"
     href:           "/"
-  - name:           "about"
-    href:           "/about"
+  - name:           "projects"
+    href:           "/projects"
   - name:           "publications"
-    href:           "/publication"
+    href:           "/publications"
   - name:           "people"
     href:           "/people"
-  - name:           "blog"
-    href:           "/blog"
-  - name:           "resources"
-    href:           "/resources"
+  - name:           "Contact Us"
+    href:           "/contact_us"
 
 # Sass
 sass:
