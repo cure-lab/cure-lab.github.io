@@ -22,6 +22,5 @@ permalink: /people/
 <h3>Professor</h3>
  {% elsif role == 'ra' %}
 <h3>Research Staff</h3>
- {% elsif role == 'researchstaff' %}
 {% endif %}
 </div>
