@@ -51,7 +51,7 @@ permalink: /people/
     {% if profile.position contains role %}
       <div class="list-item-people">
         <p class="list-post-title">
-<<<<<<< HEAD
+
           {% if profile.website %}
              {% assign this_url = profile.website | absolute_url %}
           {% else %}
@@ -63,14 +63,7 @@ permalink: /people/
              <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
           {% endif %}
           <a class="name" href="{{ this_url }}">{{ profile.name }}</a>
-=======
-          {% if profile.avatar %}
-            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
-          {% else %}
-            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
-          {% endif %}
-          <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
->>>>>>> 035226a5d203968da505c7eed5e51b416a38353d
+
         </p>
       </div>    
     {% endif %}
@@ -80,9 +73,6 @@ permalink: /people/
 
 {% else %}
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 035226a5d203968da505c7eed5e51b416a38353d
 {% endif %}
 {% endfor %}
