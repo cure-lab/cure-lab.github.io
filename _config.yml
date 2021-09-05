@@ -22,8 +22,8 @@ nav:
     href:           "/"
   - name:           "projects"
     href:           "/projects"
-  - name:           "publication"
-    href:           "/publication"
+  - name:           "publications"
+    href:           "/publications"
   - name:           "people"
     href:           "/people"
   - name:           "Contact Us"
@@ -59,3 +59,5 @@ collections:
   people:
     output: true
     permalink: /people/:title/index.html
+  publications:
+    output: false
