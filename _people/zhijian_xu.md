@@ -1,10 +1,9 @@
 ---
-name: Xuan Ju (in-coming)
+name: Zhijian Xu
 position: phd
-avatar: xuan_ju.jpg
-joined: 2022
+avatar: zhijian_xu.jpg
+joined: 2021
 website: 
 ---
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
-
-<i class="fa fa-envelope-o"></i> `juxuan.27@google.com`<br>
+<i class="fa fa-envelope-o"></i> `zjxu21@cse.cuhk.edu.hk`<br>

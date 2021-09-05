@@ -3,12 +3,7 @@ name: Min Li
 position: phd
 avatar: min_li.jpg
 twitter:
-joined: 2017
+joined: 2018
+Website:  https://scholar.google.com/citations?user=X5gRH80AAAAJ
 ---
-
-Ben is now a data scientist in the department of Developmental Neurobiology at St. Jude Children's Research Hospital 
-
-Causal inference in neuroscience.
-
-My [Homepage](http://benlansdell.github.io/), and [Google scholar](https://scholar.google.com/citations?user=vM_KsrQAAAAJ&hl=en) page.
 

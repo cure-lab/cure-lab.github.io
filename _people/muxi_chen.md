@@ -1,10 +1,9 @@
 ---
-name: Xuan Ju (in-coming)
+name: Muxi Chen
 position: phd
-avatar: xuan_ju.jpg
-joined: 2022
+avatar: 
+joined: 2021
 website: 
 ---
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
-
-<i class="fa fa-envelope-o"></i> `juxuan.27@google.com`<br>
+<i class="fa fa-envelope-o"></i> `mxchen21@cse.cuhk.edu.hk`<br>

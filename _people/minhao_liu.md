@@ -1,8 +1,8 @@
 ---
-name: Ailing Zeng
+name: Minhao Liu
 position: phd
-avatar: ailing_zeng.jpg
+avatar: 
 twitter: 
-joined: 2017
+joined: 2016
 website: https://ailingzeng.site/
 ---
