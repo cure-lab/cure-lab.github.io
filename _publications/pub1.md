@@ -1,10 +1,8 @@
 ---
-title: paper1
-author: ailing zeng
+title: pub1
 position: phd
-avatar: ailing_zeng.jpg 
+avatar: ailing_zeng.jpg
+twitter: 
 joined: 2017
-website: 
+website: https://ailingzeng.site/
 ---
-
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

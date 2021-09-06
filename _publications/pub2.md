@@ -1,9 +1,8 @@
 ---
-title: paper2
-author: min li
-avatar: min_li.jpg 
+title: pub2
 position: phd
+avatar: ailing_zeng.jpg
+twitter: 
 joined: 2017
-website: 
+website: https://ailingzeng.site/
 ---
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
