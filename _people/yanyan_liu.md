@@ -2,14 +2,14 @@
 name: Yanyan liu
 position: ra
 avatar: yanyan_liu.jpg
+joined: 2021
+website: 
 email: rachel.yyliu@gmail.com
 github: https://github.com/RachelLYY
-joined:
-website: 
+linkedin:
+dblp:
+scholar: 
 ---
-<img width="200" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
-<a href="https://github.com/RachelLYY"><i class="fa fa-github"></i> Github</a><br>
-<i class="fa fa-envelope-o"></i> `rachel.liuyy@gmail.com`<br>
 
 <hr>
 ### Bio

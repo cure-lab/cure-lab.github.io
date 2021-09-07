@@ -4,6 +4,11 @@ position: phd
 avatar: yijun_yang.jpg
 joined: 2019
 website: 
+email: yjyang@cse.cuhk.edu.hk
+github: https://github.com/yangyijune
+linkedin:
+dblp:
+scholar: 
 ---
 
 <img width="200" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

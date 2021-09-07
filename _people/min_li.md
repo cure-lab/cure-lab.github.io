@@ -2,15 +2,14 @@
 name: Min Li
 position: phd
 avatar: min_li.jpg
-email: 
-twitter:
 joined: 2018
-website:  
+website: 
+email: mli@cse.cuhk.edu.hk
+github: https://github.com/lee-man
+linkedin: 
+dblp:
 scholar:  https://scholar.google.com/citations?user=X5gRH80AAAAJ
 ---
-<img width="200" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
-<a href="https://github.com/lee-man"><i class="fa fa-github"></i> Github</a><br>
-<i class="fa fa-envelope-o"></i> `mli@cse.cuhk.edu.hk`<br>
 
 <hr>
 ### Bio

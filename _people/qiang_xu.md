@@ -4,6 +4,7 @@ position: professor
 avatar: qiang_xu1.jpg
 twitter:
 website:
+output: false
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

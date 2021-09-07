@@ -4,9 +4,12 @@ position: phd
 avatar: zhijian_xu.jpg
 joined: 2021
 website: 
+email: zjxu21@cse.cuhk.edu.hk
+github: 
+linkedin:
+dblp:
+scholar: 
 ---
-<img width="200" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
-<i class="fa fa-envelope-o"></i> `zjxu21@cse.cuhk.edu.hk`<br>
 
 <hr>
 ### Bio
