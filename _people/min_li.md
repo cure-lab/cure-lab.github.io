@@ -5,12 +5,8 @@ avatar: min_li.jpg
 email: 
 twitter:
 joined: 2018
-<<<<<<< HEAD
 website:  
-
-=======
-website:  https://scholar.google.com/citations?user=X5gRH80AAAAJ
->>>>>>> ea926853ee651a6b8d4bf1b961296d345dd13a5f
+scholar:  https://scholar.google.com/citations?user=X5gRH80AAAAJ
 ---
 <img width="200" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 <a href="https://github.com/lee-man"><i class="fa fa-github"></i> Github</a><br>
