@@ -23,11 +23,11 @@ layout: page
 
       <a href="https://github.com/cure-lab"><i class="fa fa-github fa-lg"></i> CureLab</a>&nbsp;&nbsp;&nbsp;
       <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN"><i class="ai ai-google-scholar ai-lg"></i>Google Scholar</a>&nbsp;&nbsp;&nbsp;
-      <!---<a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU3NTM2MjIxMg==&scene=124#wechat_redirect"><i class="fa fa-user fa-lg"></i>wechat_official_account</a>--->
+      <!--<a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU3NTM2MjIxMg==&scene=124#wechat_redirect"><i class="fa fa-user fa-lg"></i>wechat_official_account</a>-->
         <br>
 
       <br>
-      <!---<a href="mailto:qxu@cuhk.edu.hk"><i class="fa fa-envelope-o"></i> qxu@cuhk.edu.hk</a>--->
+      <!--<a href="mailto:qxu@cuhk.edu.hk"><i class="fa fa-envelope-o"></i> qxu@cuhk.edu.hk</a>-->
 
       </p>
 
@@ -56,10 +56,10 @@ layout: page
           <u>Happenings of the last two months.</u>
           <span style="display: block; margin-bottom: 1em"></span>
           <div class="news">
-              {% capture now %}{{'now' | date: '%s' | minus: 5184000 %}}{% endcapture %}
+              {% capture now %}{{ 'now' | date: '%s' | minus: 5184000 }}{% endcapture %}
               <ul style="list-style-position:outside;padding:20px" >
                 {% for new in site.data.news %}
-                  {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
+                  {% capture date %}{{ new.date | date: '%s' | plus: 0 }}{% endcapture %}
                   {% if date > now %}
                     <li>
                       <span>
