@@ -4,7 +4,7 @@ position: phd
 avatar: minhao_liu.jpg
 joined: 2016
 website: 
-email: mhliu@cse
+email: mhliu@cse.cuhk.edu.hk
 github: 
 linkedin:
 dblp: https://dblp.org/pid/79/10137.html
