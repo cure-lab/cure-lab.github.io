@@ -34,9 +34,9 @@ layout: default
         </div>
         
       </td>
-      <td style="width:200px;border:0;background-color:#FFFFFF;">
+      <td style="border:0;background-color:#FFFFFF;">
         {% if page.avatar %}
-          <img class="img-fluid z-depth-1 rounded" src="{{ page.avatar | prepend: '/images/people/' | relative_url }}">
+          <img class="img-fluid z-depth-1 rounded" align="right" style="height:250px;" src="{{ page.avatar | prepend: '/images/people/' | relative_url }}">
         {% endif %}
       </td>
     </tr>
