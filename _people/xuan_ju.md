@@ -6,9 +6,9 @@ joined: 2022
 website: 
 email: juxuan.27@google.com
 github: https://github.com/juxuan27/
-linkedin:
+linkedin: https://www.linkedin.com/in/%E7%92%87-%E9%9E%A0-122070217/
 dblp:
-scholar:  https://scholar.google.com/citations?user=X5gRH80AAAAJ
+scholar:  
 ---
 
 <hr>
