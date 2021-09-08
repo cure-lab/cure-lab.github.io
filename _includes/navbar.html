@@ -8,8 +8,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class='navbar-brand page-scroll' href='/'>
-              <span style='font-family:"Open Sans" font-weight:300'>{{ site.name }}</span>
+              <a class='navbar-left page-scroll' href='/'>
+               {% comment %} <span style='font-family:"Open Sans" font-weight:300'> {% endcomment %}
+               {% comment %} {{ site.name }} {% endcomment %}
+               <img style="margin-top:10px; margin-bottom:10px;margin-left:10px;" src="{{ "images/logo-nav.svg" | relative_url }}" width="80">
+               {% comment %} </span> {% endcomment %}
               </a>
             </div>
 
