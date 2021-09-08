@@ -4,6 +4,7 @@ permalink: /publications/
 ---
 
 ### **Selected Papers from the Lab**
+For full paper list, please refer to Prof. Xu's [Google Scholar](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) page.
 <hr>
 <div class="content list">
 {% assign publication_sorted = site.publications | sort: 'time' | reverse %}
