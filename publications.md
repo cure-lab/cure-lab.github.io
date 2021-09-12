@@ -3,7 +3,7 @@ title: Publication
 permalink: /publications/
 ---
 
-### **Selected Papers from the Lab**
+### **Recent Papers**
 For full paper list, please refer to Prof. Xu's [Google Scholar](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) page.
 <hr>
 <div class="content list">
