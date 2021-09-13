@@ -24,7 +24,7 @@ permalink: /people/
 <div class="content list people">
   <div class="list-item-people">
         <p class="list-post-title">
-          <a href="/"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/qiang_xu1.jpg"></a>
+          <a href="{{ site.baseurl }}/qiang_xu.html "><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/qiang_xu1.jpg"></a>
   <a class="name" href="/">Qiang Xu</a>
            </p>
       </div>

@@ -21,7 +21,7 @@ layout: page
                           <p>
       <br />
 
-      <a href="https://github.com/cure-lab"><i class="fa fa-github fa-lg"></i> CureLab</a>&nbsp;&nbsp;&nbsp;
+
       <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN"><i class="ai ai-google-scholar ai-lg"></i>Google Scholar</a>&nbsp;&nbsp;&nbsp;
       <!--<a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU3NTM2MjIxMg==&scene=124#wechat_redirect"><i class="fa fa-user fa-lg"></i>wechat_official_account</a>-->
         <br>
@@ -37,8 +37,7 @@ layout: page
                   </tbody>
                 </table>
                 <hr>
-            
-           <p><i style="font-size:20px"><b style="color:#000000;">Opening:</b> Welcome graduate students, post-docs, and visiting interns/scholars. Please send me your CV if your are interested in our research or have any question.</i> </p>    
+  
                 <h1>Bio:</h1>
                 <div style="font-size:20px;">
                   <p style="font-size:20px;margin-left:20px;text-align:justify;text-justify:inter-ideograph;"><span style="font-size:medium;font-family: Arial"> Qiang Xu leads <u>CU</u>hk <u>RE</u>liable Computing laboratory (<b>CURE Lab.</b>), and he is interested in combating all sorts of errors in computing systems. Recently, he is also interested in motion analysis for rehabiltation.  He has published broadly in the filed of electronic design automation (EDA), computer security and AI, and received a number of best paper awards and best paper nominations. He is currently serving as an Associate Editor for IEEE Transactions on Computer-Aided Design and Integration, the VLSI Journal. </span></p>
@@ -46,31 +45,3 @@ layout: page
                 <hr>
               </article>
 
-
-    <header class="masthead text-center">
-      
-        <span style="display: block; margin-bottom: 3em"></span>
-      <div class="w3-container" style="   background: #f0f8ff; padding: 15px; border-radius:10px; border: 1px solid #5d8aa8">
-        <div style="text-align:left">
-          <h3> Recent News </h3>
-          <u>Happenings of the last two months.</u>
-          <span style="display: block; margin-bottom: 1em"></span>
-          <div class="news">
-              {% capture now %}{{ 'now' | date: '%s' | minus: 5184000 }}{% endcapture %}
-              <ul style="list-style-position:outside;padding:20px" >
-                {% for new in site.data.news %}
-                  {% capture date %}{{ new.date | date: '%s' | plus: 0 }}{% endcapture %}
-                  {% if date > now %}
-                    <li>
-                      <span>
-                        {{ new.details }}
-                      </span>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-          </div>
-        </div >
-      </div>
-          <span style="display: block; margin-bottom: 3em"></span>
-    </header>
