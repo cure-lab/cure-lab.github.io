@@ -61,3 +61,6 @@ collections:
     permalink: /people/:title/index.html
   publications:
     output: false
+  projecs:
+    output: false
+
