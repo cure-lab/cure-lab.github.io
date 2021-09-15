@@ -19,7 +19,7 @@ permalink: /people/
 {% if role == 'phd' %}
 <h3>Phd Students</h3>
  {% elsif role == 'professor' %}
-<h3>Professor</h3>
+<h3>Principle Investigator</h3>
   </div>
 <div class="content list people">
   <div class="list-item-people">
