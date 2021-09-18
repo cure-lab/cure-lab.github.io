@@ -8,7 +8,7 @@ email: mhliu@cse.cuhk.edu.hk
 github: 
 linkedin:
 dblp: https://dblp.org/pid/79/10137.html
-scholar:  https://scholar.google.com/citations?user=X5gRH80AAAAJ
+scholar:  https://scholar.google.com/citations?user=MUTHUDAAAAAJ
 ---
 
 <hr>

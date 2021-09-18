@@ -23,7 +23,11 @@ permalink: /projects/
                 </h3>
 
 <p class="list-detail" >
-{{ post.content | strip_html | truncatewords:30 }}
+{% if post.short-describe %}
+  {{ post.short-describe | strip_html | truncatewords:30 }}
+{% else %}
+  {{ post.content | strip_html | truncatewords:30 }}
+{% endif %}
 </p>
 </div>
 </div>
