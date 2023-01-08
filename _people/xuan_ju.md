@@ -1,5 +1,5 @@
 ---
-name: Xuan Ju (in-coming)
+name: Xuan Ju
 position: phd
 avatar: xuan_ju.jpg
 joined: 2022
