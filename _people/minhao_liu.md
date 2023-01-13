@@ -1,6 +1,6 @@
 ---
 name: Minhao Liu
-position: phd
+position: alumni
 avatar: minhao_liu.jpg
 joined: 2016
 website: 
