@@ -1,6 +1,6 @@
 ---
 name: Ailing Zeng
-position: alumni1
+position: alumni
 avatar: ailing_zeng.jpg
 joined: 2017
 website: https://ailingzeng.site/
