@@ -4,7 +4,7 @@ permalink: /people/
 ---
 
 {% assign people_sorted = site.people | sort: 'joined' | reverse %}
-{% assign role_array = "professor|phd|ra|alumni1" | split: "|" %}
+{% assign role_array = "professor|phd|ra|alumni" | split: "|" %}
 
 {% for role in role_array %}
 
@@ -47,7 +47,7 @@ permalink: /people/
 {% endif %}
 </div>
 
-{% if role != 'alumni' %}
+<!--{% if role != 'alumni' %}-->
 <div class="content list people">
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
@@ -76,5 +76,5 @@ permalink: /people/
 {% else %}
 
 
-{% endif %}
+<!--{% endif %}-->
 {% endfor %}
