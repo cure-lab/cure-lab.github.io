@@ -6,5 +6,5 @@ citation:  Liu, M., Zeng, A., Lai, Q., & Xu, Q.
 conference: arxiv/preprint
 header-img: images/publication/timeseries.jpg
 paper-link: https://arxiv.org/pdf/2106.09305.pdf
-code-link: 
+code-link: https://github.com/cure-lab/SCINet
 ---
