@@ -1,6 +1,6 @@
 ---
 title: Out-of-Distribution Detection with Semantic Mismatch under Masking. 
-description: 
+description: MoodCat is an out-of-distribution (OOD) detection framework, which identify OOD sample by calculating the semantic difference between the original image and its synthesized version conditioned on a random mask and the predicted label. 
 time: 2022-10-23
 citation: Yijun Yang, Ruiyuan Gao, Qiang Xu
 conference: ECCV 2022
