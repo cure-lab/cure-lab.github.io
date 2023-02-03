@@ -26,7 +26,7 @@ For full paper list, please refer to Prof. Xu's [Google Scholar](https://scholar
 
                       <i>{{ post.citation }}</i>
                       <br>
-                      {{ post.conference }}
+                      <u>{{ post.conference }}</u>
                       <br>
                       {% if post.description %}
                       {{ post.description }}
