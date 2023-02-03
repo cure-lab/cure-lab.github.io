@@ -30,8 +30,8 @@ For full paper list, please refer to Prof. Xu's [Google Scholar](https://scholar
                       <br>
                       {% if post.description %}
                       {{ post.description }}
-                      {% endif %}
                       <br>
+                      {% endif %}
                       {% if post.paper-link %}
                       <a href="{{ post.paper-link }}">[paper]</a>
                       {% endif %}
