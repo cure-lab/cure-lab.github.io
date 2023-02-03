@@ -28,6 +28,9 @@ For full paper list, please refer to Prof. Xu's [Google Scholar](https://scholar
                       <br>
                       {{ post.conference }}
                       <br>
+                      {% if post.description %}
+                      {{ post.description }}
+                      {% endif %}
                       {% if post.paper-link %}
                       <a href="{{ post.paper-link }}">[paper]</a>
                       {% endif %}
