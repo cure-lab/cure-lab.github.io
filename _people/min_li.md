@@ -1,6 +1,6 @@
 ---
 name: Min Li
-position: phd
+position: alumni
 avatar: min_li.jpg
 joined: 2018
 website: 
