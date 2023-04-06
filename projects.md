@@ -4,7 +4,7 @@ permalink: /projects/
 
 ---
 
-### *Pending**
+### **Pending**
 <hr>
 
 
