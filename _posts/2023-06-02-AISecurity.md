@@ -4,7 +4,9 @@ header-img: images/projects/aisecurity.png
 categories: projectHome
 ---
 
-### this is a home page for holding AI Security projects
+**Exploring the defects of AI systems, particularly generative models used for image generation, holds paramount importance in advancing the field and enhancing model performance. Understanding and addressing these defects not only helps us identify areas for improvement but also provides valuable insights into the limitations and potential biases of the models. By actively investigating and mitigating these issues, we can create more reliable and trustworthy AI systems.**
+
+**Exploring defects provides an opportunity for continuous learning and refinement. By thoroughly analyzing the failure cases and weaknesses of generative models, we can extract valuable knowledge about the underlying factors contributing to these issues. This knowledge can then be leveraged to design novel algorithms, techniques, and architectures to overcome the identified challenges. Through a progressive approach that embraces the knowledge gained from defects, we can iteratively improve the performance of generative models, pushing the boundaries of what is possible in text-to-image generation.**
 
 
 <div class="content list">
