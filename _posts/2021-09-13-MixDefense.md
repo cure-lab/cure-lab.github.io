@@ -7,5 +7,5 @@ Deep learning-based AI systems have dominated several long-standing machine lear
 
 ### MixDefense: A Defense-in-Depth Framework for Adversarial Example Detection Based on Statistical and Semantic Analysis
 
-<img width="500" src="{{site.baseurl}}/images/projects/mixDefense.png" data-action="zoom">
+<img width="100%" src="{{site.baseurl}}/images/projects/mixDefense.png" data-action="zoom">
 In this work, we propose a multilayer defense-in-depth framework for AE detection, namely MixDefense. For the first layer, we focus on those AEs with large perturbations. We propose to leverage the `noise' features extracted from the inputs to discover the statistical difference between natural images and tampered ones for AE detection. For AEs with small perturbations, the inference result of such inputs would largely deviate from their semantic information. Consequently, we propose a novel learning-based solution to model such contradictions for AE detection.
