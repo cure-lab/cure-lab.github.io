@@ -10,6 +10,8 @@ categories: projectHome
 
 **With this landscape in mind, our idea revolves around developing an improved open-source base model that excels in generating high-quality images for arbitrary text prompts. The goal is to create a significantly enhanced version of the Stable Diffusion model, capable of rivaling the performance of MidJourney. By combining cutting-edge techniques and leveraging the power of community contributions, our aim is to provide a superior solution that surpasses existing standards in text-to-image generation.**
 
+<hr>
+
 <div class="content list">
   {% for post in site.posts %}
     {% if post.categories contains 'text2imageGen' %}
