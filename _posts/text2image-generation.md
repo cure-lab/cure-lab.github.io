@@ -1,6 +1,6 @@
 ---
 title: High-Quality Text-to-Image Generation
-header-img: images/projects/text2imag2-header.png
+header-img: images/projects/mixDefense.png
 categories: projectHome
 ---
 
