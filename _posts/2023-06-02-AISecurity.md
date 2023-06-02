@@ -1,6 +1,6 @@
 ---
 title: AI Security
-header-img: images/projects/mixDefense.png
+header-img: images/projects/aisecurity.png
 categories: projectHome
 ---
 
