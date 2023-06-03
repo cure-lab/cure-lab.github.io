@@ -4,7 +4,9 @@ permalink: /projects/
 
 ---
 
-### **Our Projects**
+### **Current Projects**
+
+<hr>
 
 <div class="content list">
   {% for post in site.posts %}
@@ -20,9 +22,9 @@ permalink: /projects/
                     <h3 class="post-title">
                         {{ post.title }}
                     </h3>
-                    <p class="list-post-title">
+<!--                     <p class="list-post-title">
                       posted on {{ post.date | date: "%B %-d, %Y" }}
-                    </p>
+                    </p> -->
                     <p class="list-detail" >
                       {{ post.content | strip_html | truncatewords:30 }}
                     </p>
