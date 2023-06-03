@@ -1,5 +1,5 @@
 ---
-title: High-Quality Text-to-Image Generation
+title: Text-to-Image Generation
 header-img: images/projects/text2imgGen.png
 categories: projectHome
 ---
