@@ -1,5 +1,5 @@
 ---
-title: AI Security
+title: AI Safety and Security
 header-img: images/projects/aisecurity.png
 categories: projectHome
 ---
