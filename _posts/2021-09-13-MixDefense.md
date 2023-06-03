@@ -1,6 +1,6 @@
 ---
 title: MixDefense：A Defense-in-Depth Framework for Adversarial Example Detection Based on Statistical and Semantic Analysis
-header-img: images/projects/mixDefense.png
+header-img: images/projects/mixdefense.png
 categories: AISecurity
 ---
 
