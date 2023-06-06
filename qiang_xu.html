@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@3.0.7/marked.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 <article id="true-undefined" class="article article-type-true" itemscope="" itemprop="blogPost">
                 <table style="margin-top:20px;border:0;margin: auto;background-color:#f0f8ff;">
@@ -43,28 +43,31 @@ layout: page
                   <p style="font-size:20px;margin-left:20px;text-align:justify;text-justify:inter-ideograph;"><span style="font-size:medium;font-family: Arial"> Qiang Xu leads <u>CU</u>hk <u>RE</u>liable Computing laboratory (<b>CURE Lab.</b>), and he is interested in combating all sorts of errors in computing systems. Recently, he is also interested in motion analysis for rehabiltation.  He has published broadly in the filed of electronic design automation (EDA), computer security and AI, and received a number of best paper awards and best paper nominations. He is currently serving as an Associate Editor for IEEE Transactions on Computer-Aided Design and Integration, the VLSI Journal. </span></p>
                 </div> -->
 
-<!--                 <div class="content list">
-                  {% for people in site.people %}
-                    {% if post.position contains 'professor' %}
-                    <div class="list-item">
-                      <p class="list-detail" >
-                        {{ post.content | strip_html | truncatewords:30 }}
-                      </p>
-                    </div>
-                    {% endif %}
-                  {% endfor %}
-                </div> -->
-                
                 <div id="markdown-content"></div>
 
-                <script>
-                  fetch('qiangxu.md')
-                    .then(response => response.text())
-                    .then(markdown => {
-                      const html = marked(markdown);
-                      document.getElementById('markdown-content').innerHTML = html;
-                    });
-                </script>
+                  <script>
+                    const apiUrl = 'https://api.github.com/repos/{owner}/{repo}/contents/{path}';
+                    const owner = 'cure-lab';
+                    const repo = 'cure-lab.github.io';
+                    const path = 'qiangxu.md';
+
+                    // 构建API请求URL
+                    const requestUrl = apiUrl.replace('{owner}', owner).replace('{repo}', repo).replace('{path}', path);
+
+                    // 发送API请求
+                    fetch(requestUrl)
+                      .then(response => response.json())
+                      .then(data => {
+                        // 提取Markdown文件内容
+                        const markdownContent = atob(data.content);
+
+                        // 将Markdown转换为HTML
+                        const html = marked(markdownContent);
+
+                        // 在页面中显示HTML内容
+                        document.getElementById('markdown-content').innerHTML = html;
+                      });
+                  </script>
                 
                 <hr>
               </article>
