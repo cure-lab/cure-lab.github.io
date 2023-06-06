@@ -4,13 +4,21 @@ header-img: images/projects/logicReasoning.png
 categories: projectHome
 ---
 
-**Logic reasoning techniques for Boolean satisfiability (SAT) problem solving, satisfiability modulo theories (SMT) problem solving or first-order logic proving have enabled substantial advancements in many practical applications, such as verification, routing and program synthesis. For example, the integration of SAT solvers in electronic design automation (EDA) tools has significantly enhanced the formal verification and testing processes in circuit design.**
+This project proposes a novel approach to enhance the efficiency of logic reasoning engines, particularly those used for solving the Boolean satisfiability (SAT) problem, satisfiability modulo theories (SMT) problem, or first-order logic proving. These reasoning techniques have had significant impacts on various practical applications like verification, routing, and program synthesis.
 
-**Due to the fact that most logic reasoning problems are NP-hard, it is not possible to find a complete solution in polynomial time. As a result, many logic reasoning engines rely on heuristic search techniques to process problem instances that are presented in a standardized format, such as conjunctive normal form (CNF) in SAT solving. Although this approach has achieved impressive performance on benchmarks, it still faces challenges in solving large-scale industrial problems. One of the critical reasons is the dependence of the standardized format, which lacks topological information and contains redundant structures.**
+The primary challenges these engines face stem from the NP-hard nature of most logic reasoning problems, which makes it impractical to find a complete solution in polynomial time. These engines traditionally rely on heuristic search techniques and process problem instances in a standardized format, such as conjunctive normal form (CNF) in SAT solving. However, this approach has its limitations, particularly when it comes to solving large-scale industrial problems. One critical issue is the dependence on the standardized format, which can lack topological information and contain redundant structures.
 
-**To address the above issue, we firstly propose to use circuits as an alternative problem format. Circuits offer several advantages: a) contain rich structural information, b) can be simplified by circuit optimization tools, and c) ease of conversion from both the standardized format and the original problem. Secondly, we plan to develop a circuit learning framework that can capture rich and general circuit representations, which will serve as the backbone of this project. Thirdly, we use the information learned from the circuit to guide the heuristic search process. Since circuits can be mapped into the standardized format, this information can be easily integrated into the existing logic reasoning engines. Finally, we intend to transform the circuits to make them easier to solve and process by the logic reasoning engines as equivalent instances.**
+To address these challenges, the project proposes several key strategies:
 
-**In summary, our goal is to accelerate logic reasoning using circuit learning, analysis, and transformation. Our proposed approaches can be easily combined with existing logic reasoning engines to improve their efficiency.**
+1. **Circuits as Alternative Problem Format**: The project first proposes to use circuits as an alternative problem format. Unlike the standardized formats, circuits contain rich structural information, can be simplified using circuit optimization tools, and can be easily converted from both the standardized format and the original problem.
+
+2. **Circuit Learning Framework**: The project aims to develop a circuit learning framework to capture rich and general circuit representations, serving as the backbone of the project.
+
+3. **Guided Heuristic Search**: The information learned from the circuit will be used to guide the heuristic search process. Given that circuits can be mapped into the standardized format, this information can be easily integrated into existing logic reasoning engines.
+
+4. **Circuit Transformation**: The project also plans to transform the circuits into forms that are easier for the logic reasoning engines to solve and process as equivalent instances.
+
+In summary, the project's goal is to boost logic reasoning efficiency using circuit learning, analysis, and transformation. The proposed approaches are designed to integrate easily with existing heuristic-based engines, enhancing their overall efficiency.
 
 
 <hr>
