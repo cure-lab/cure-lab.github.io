@@ -44,7 +44,7 @@ layout: page
                 </div> -->
                 <div id="md-content"></div>
                 <script>
-                    fetch('{{ site.baseurl }}/qiang_xu.md')
+                    fetch('{{ site.people }}/qiang_xu.md')
                     .then((resp) => resp.text())
                     .then(function(data) {
                         document.getElementById('md-content').innerHTML = marked(data)
