@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 <article id="true-undefined" class="article article-type-true" itemscope="" itemprop="blogPost">
                 <table style="margin-top:20px;border:0;margin: auto;background-color:#f0f8ff;">
@@ -42,7 +43,7 @@ layout: page
                   <p style="font-size:20px;margin-left:20px;text-align:justify;text-justify:inter-ideograph;"><span style="font-size:medium;font-family: Arial"> Qiang Xu leads <u>CU</u>hk <u>RE</u>liable Computing laboratory (<b>CURE Lab.</b>), and he is interested in combating all sorts of errors in computing systems. Recently, he is also interested in motion analysis for rehabiltation.  He has published broadly in the filed of electronic design automation (EDA), computer security and AI, and received a number of best paper awards and best paper nominations. He is currently serving as an Associate Editor for IEEE Transactions on Computer-Aided Design and Integration, the VLSI Journal. </span></p>
                 </div> -->
 
-                <div class="content list">
+<!--                 <div class="content list">
                   {% for people in site.people %}
                     {% if post.position contains 'professor' %}
                     <div class="list-item">
@@ -52,7 +53,18 @@ layout: page
                     </div>
                     {% endif %}
                   {% endfor %}
-                </div>
+                </div> -->
+                
+                <div id="markdown-content"></div>
+
+                <script>
+                  fetch('qiangxu.md')
+                    .then(response => response.text())
+                    .then(markdown => {
+                      const html = marked(markdown);
+                      document.getElementById('markdown-content').innerHTML = html;
+                    });
+                </script>
                 
                 <hr>
               </article>
