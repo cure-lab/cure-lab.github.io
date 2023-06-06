@@ -10,13 +10,13 @@ The primary challenges these engines face stem from the NP-hard nature of most l
 
 To address these challenges, the project proposes several key strategies:
 
-1. **Circuits as Alternative Problem Format**: The project first proposes to use circuits as an alternative problem format. Unlike the standardized formats, circuits contain rich structural information, can be simplified using circuit optimization tools, and can be easily converted from both the standardized format and the original problem.
+1.**Circuits as Alternative Problem Format**: The project first proposes to use circuits as an alternative problem format. Unlike the standardized formats, circuits contain rich structural information, can be simplified using circuit optimization tools, and can be easily converted from both the standardized format and the original problem.
 
-2. **Circuit Learning Framework**: The project aims to develop a circuit learning framework to capture rich and general circuit representations, serving as the backbone of the project.
+2.**Circuit Learning Framework**: The project aims to develop a circuit learning framework to capture rich and general circuit representations, serving as the backbone of the project.
 
-3. **Guided Heuristic Search**: The information learned from the circuit will be used to guide the heuristic search process. Given that circuits can be mapped into the standardized format, this information can be easily integrated into existing logic reasoning engines.
+3.**Guided Heuristic Search**: The information learned from the circuit will be used to guide the heuristic search process. Given that circuits can be mapped into the standardized format, this information can be easily integrated into existing logic reasoning engines.
 
-4. **Circuit Transformation**: The project also plans to transform the circuits into forms that are easier for the logic reasoning engines to solve and process as equivalent instances.
+4.**Circuit Transformation**: The project also plans to transform the circuits into forms that are easier for the logic reasoning engines to solve and process as equivalent instances.
 
 In summary, the project's goal is to boost logic reasoning efficiency using circuit learning, analysis, and transformation. The proposed approaches are designed to integrate easily with existing heuristic-based engines, enhancing their overall efficiency.
 
