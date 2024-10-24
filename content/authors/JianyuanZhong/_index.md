@@ -14,8 +14,8 @@ authors:
 superuser: false
 
 # Role/position
-role: Ph.D. - 2021 fall
-year: 2021
+role: Ph.D. - 2023 fall
+year: 2023
 
 # Organizations/Affiliations
 organizations:
