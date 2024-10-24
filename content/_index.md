@@ -69,12 +69,19 @@ sections:
       view: citation
       columns: '1'
 
-  - block: markdown
+  - block: people
     content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+      title: People
+      user_groups:
+          - Professor
+          - Ph.D. Student
+          - Research Assistant
+          - Visitors
+          - Alumni
+      sort_by: Params.year
+      sort_ascending: false
     design:
-      columns: '1'
+      show_interests: false
+      show_role: true
+      show_social: true
 ---
