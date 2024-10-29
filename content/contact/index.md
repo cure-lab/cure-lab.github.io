@@ -1,6 +1,6 @@
 ---
 title: Contact
-date: 2022-10-24
+date: 2024-10-24
 
 type: landing
 
@@ -9,24 +9,22 @@ sections:
     content:
       title: Contact
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
-      email: test@example.org
-      phone: 888 888 88 88
+        Welcome to contact us!
+      email: qxu@cse.cuhk.edu.hk
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
+        street: The Chinese University of Hong Kong
+        city: Hong Kong
+        region: ShaTin
+        country: China
+        country_code: CN
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        latitude: '22.4185'
+        longitude: '114.2041'
+      directions: Ho Sin-Hang Engineering Building
       office_hours:
         - 'Monday 10:00 to 13:00'
         - 'Wednesday 09:00 to 10:00'
-      appointment_url: 'https://calendly.com'
+      appointment_url: 'xxx'
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
@@ -56,7 +54,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: contact.jpg
+          filename: welcome_original.jpg
           filters:
             brightness: 1
           parallax: false
