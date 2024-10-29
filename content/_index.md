@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
+        CURELAB
         Research Group
       image:
         filename: welcome.jpg
@@ -77,7 +77,6 @@ sections:
           - Ph.D. Student
           - Research Assistant
           - Visitors
-          - Alumni
       sort_by: Params.year
       sort_ascending: false
     design:
