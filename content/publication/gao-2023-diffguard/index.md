@@ -1,14 +1,22 @@
 ---
-title: 'Diffguard: Semantic mismatch-guided out-of-distribution detection using pre-trained
-  diffusion models'
+title: 'Diffguard: Semantic mismatch-guided out-of-distribution detection using pre-trained diffusion models'
 authors:
 - Ruiyuan Gao
 - Chenchen Zhao
 - Lanqing Hong
 - Qiang Xu
 date: '2023-01-01'
-publishDate: '2024-10-24T07:16:15.544215Z'
 publication_types:
-- paper-conference
-publication: '*Proceedings of the IEEE/CVF International Conference on Computer Vision*'
+- ai-safety
+publication: 'ICCV'
+
+# links:
+# - name: Custom Link
+#   url: 
+url_pdf: https://arxiv.org/abs/2308.07687
+url_code: https://github.com/cure-lab/DiffGuard
+# url_dataset: 
+# url_project: 
+# url_video: 
+
 ---

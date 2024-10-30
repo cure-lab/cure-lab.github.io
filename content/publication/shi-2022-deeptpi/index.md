@@ -9,8 +9,7 @@ authors:
 - Yu Huang
 - Qiang Xu
 date: '2022-01-01'
-publishDate: '2024-10-24T07:16:15.628180Z'
 publication_types:
-- paper-conference
-publication: '*2022 IEEE International Test Conference (ITC)*'
+- eda
+publication: 'ITC'
 ---

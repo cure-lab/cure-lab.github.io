@@ -8,8 +8,17 @@ authors:
 - Dawei Cheng
 - Qiang Xu
 date: '2024-01-01'
-publishDate: '2024-10-24T07:16:15.538309Z'
 publication_types:
-- article-journal
-publication: '*arXiv preprint arXiv:2402.04852*'
+- time-series
+publication: 'ICML'
+
+# links:
+# - name: Custom Link
+#   url: 
+url_pdf: https://arxiv.org/abs/2402.04852
+# url_code: 
+# url_dataset: 
+# url_project: 
+# url_video: 
+
 ---

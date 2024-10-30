@@ -13,9 +13,9 @@ sections:
         align: center
         background:
           image:
-            filename: welcome_original.jpg
+            filename: welcome.jpg
             filters:
-              brightness: 0.3
+              brightness: 0.35
           position: right
           color: '#666'
       - title: AI-Native EDA
@@ -28,21 +28,27 @@ sections:
               brightness: 0.35
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
-        align: right
+      - title: Time Series
+        content: ' Prediction and Analysis of Events Ordered in Time'
+        align: left
         background:
           image:
-            filename: welcome.jpg
+            filename: time_series.jpg
             filters:
-              brightness: 0.5
+              brightness: 0.35
           position: center
-          color: '#333'
-        link:
-          icon: graduation-cap
-          icon_pack: fas
-          text: Join Us
-          url: ../contact/
+          color: '#555'
+      - title: Generative AI
+        content: ' Creating New and Original Content'
+        align: left
+        background:
+          image:
+            filename: generative_ai.jpg
+            filters:
+              brightness: 0.35
+          position: center
+          color: '#555'
+      
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
